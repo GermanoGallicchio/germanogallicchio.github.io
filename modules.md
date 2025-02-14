@@ -4,7 +4,7 @@ title: taught modules
 permalink: /modules/
 ---
 
-- Foundations of Sport and Exercise Psychology (_to come_)
+
 ## [Psychophysiology](/JXH3089/)
 ### Biosignals
   - intro
@@ -18,3 +18,7 @@ permalink: /modules/
 ### Hot Topics in Sport and Exercise Psychophysiology
   - Quiet Eye
   - Psychomotor Efficiency
+
+
+
+- Foundations of Sport and Exercise Psychology (_to come_
