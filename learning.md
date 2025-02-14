@@ -1,6 +1,6 @@
 ---
 layout: page
-title: taught modules
+title: learning
 permalink: /learning/
 ---
 
