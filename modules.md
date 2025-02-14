@@ -5,7 +5,7 @@ permalink: /modules/
 ---
 
 
-## [Psychophysiology](/JXH3089/)
+## [Psychophysiology](http://germanogallicchio.github.io/JXH3089/)
 ### Biosignals
   - intro
   - workshop
