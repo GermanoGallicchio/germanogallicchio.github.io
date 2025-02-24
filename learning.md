@@ -5,7 +5,7 @@ permalink: /learning/
 ---
 
 
-## [Psychophysiology](http://germanogallicchio.github.io/JXH3089/)
+## Psychophysiology
 
 <br>
 
