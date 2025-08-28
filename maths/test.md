@@ -1,7 +1,6 @@
 ---
 layout: page
-title: learning
-permalink: /learning/
+title: maths
 ---
 
 
