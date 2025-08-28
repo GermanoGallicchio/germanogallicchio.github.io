@@ -24,9 +24,7 @@ The bias $\vec{\Phi^A}$ consists in a possible non-uniformity distribution of si
 
 $$
 \vec{\Phi^A} = N^{-1} 
-\left
-|\sum_{t=1}^{N}e^{i\phi^A_t} 
-\right|
+\sum_{t=1}^{N}e^{i\phi^A_t} 
 $$
 
 Note that $\vec{\Phi^A}$ is a complex vector whose length is not necessarily 1.
