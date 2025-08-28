@@ -14,24 +14,24 @@ I will refer to the vector of phases from signal A as $\phi^A$ and to the vector
 PAC is the mean resultant length of the complex-valued vectors assembled as below.
 
 $$
-PAC = N^{-1} \sum_{t=1}^{N} ( m^B_t e^{i \phi^{A}_t})
+PAC = N^{-1} |\sum_{t=1}^{N} ( m^B_t e^{i \phi^{A}_t}|)
 $$
 
-The bias $\Phi^A$ consists in a possible non-uniformity distribution of signal A's phases. This bias can be computed as the mean resultant of the unit-length complex vectors with angle $\phi^A$.
+The bias $\vec{\Phi^A}$ consists in a possible non-uniformity distribution of signal A's phases. This bias can be computed as the mean resultant of the unit-length complex vectors with angle $\phi^A$.
 
 $$
-\Phi^A = N^{-1} |\sum_{t=1}^{N}e^{i\phi^A_t}|
+\vec{\Phi^A} = N^{-1} |\sum_{t=1}^{N}e^{i\phi^A_t} |
 $$
 
-Note that $\Phi^A$ is a complex vector whose length is not necessarily 1.
+Note that $\vec{\Phi^A}$ is a complex vector whose length is not necessarily 1.
 
 
 ## Debiasing as demeaning
 
-The debiasing procedure removes the mean resultant $\Phi^A$ from the unit-length vectors with $\phi^A$ as angles
+The debiasing procedure removes the mean resultant $\vec{\Phi^A}$ from the unit-length vectors with $\phi^A$ as angles
 
 $$
-dPAC = N^{-1} |\sum_{t=1}^N [m^B_t (e^{i\phi^A_t}-\Phi^A)]|
+dPAC = N^{-1} |\sum_{t=1}^N [m^B_t (e^{i\phi^A_t}-\vec{\Phi^A})]|
 $$
 
 The debiasing procedure is in fact a **demeaning** of the unit-length complex-valued vectors with phase $\phi^A$
@@ -39,7 +39,7 @@ The debiasing procedure is in fact a **demeaning** of the unit-length complex-va
 The demeaning procedure yields another complex-valued vector $\vec{d^A}$
 
 $$
-e^{i\phi^A_t}-\Phi^A=\vec{d_t^A} \ \ \ \ \ , \forall t
+e^{i\phi^A_t}-\vec{\Phi^A}=\vec{d_t^A} \ \ \ \ \ , \forall t
 $$
 
 Therefore we can re-express dPAC using the demeaned A's phase vector $d^A$. In these terms, dPAC is the mean resultant length of the complex-value vectors built as the scaling of the _demeaned_ phase of signal A by the magnitudes $m^B$ and.
