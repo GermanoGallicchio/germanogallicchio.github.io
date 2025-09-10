@@ -7,20 +7,5 @@ permalink: /learning/
 
 ## Psychophysiology
 
-<br>
-
-### Biosignals
-  - intro
-  - workshop
-
-### Oculomotor psychophysiology
-  - intro
-  - workshop
-
-### Cortical psychophysiology
-  - intro
-  - workshop
-
-### Hot Topics in Sport and Exercise Psychophysiology
-  - Quiet Eye
-  - Psychomotor Efficiency
+## Foundations of Sport and Exercise Psychology
+<a href="http://germanogallicchio.github.io/learning/JXHC_1055/01"> </a>
