@@ -17,7 +17,7 @@ website:
       - text: software 
         href: software.html        
       - text: learning resources
-        href: learning.html
+        href: learning/index.html
       - text: contact
         href: contact.html
 
