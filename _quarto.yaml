@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Germano Gallicchio"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: home
+        href: index.html
+      - text: about me
+        href: aboutMe.html
+      - text: research 
+        href: research.html        
+      - text: software 
+        href: software.html        
+      - text: learning resources
+        href: learning.html
+      - text: contact
+        href: contact.html
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
