@@ -1,6 +1,5 @@
-> per ardua ad alta
-(motto of the University of Birmingham)
+> per ardua ad alta<br>
+> (through hard work to high things)
 
-What I try to achieve can be summarized with the motto above, meaning "through hardship to heights".
 
-In this website, I share a bit of my research, software, and learning resources that I developed.
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/spiritntime/21251377089/in/photostream/" title="DSCF5298"><img src="https://live.staticflickr.com/5794/21251377089_ef427db552_n.jpg" width="240" height="320" alt="DSCF5298"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

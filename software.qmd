@@ -1,0 +1,13 @@
+Free and open-source software
+
+# PhysioExplorer
+
+GitHub repository: [link](https://github.com/GermanoGallicchio/PhysioExplorer)
+
+Gallicchio, G. (2025). PhysioExplorer. Zenodo. [https://doi.org/10.5281/zenodo.16808782](https://doi.org/10.5281/zenodo.16808782)
+
+
+# Polar
+
+GitHub repository: [link](https://github.com/GermanoGallicchio/Polar)
+
