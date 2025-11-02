@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "PhysioExplorer",
+    "section": "",
+    "text": "Free and open-source software\n\nPhysioExplorer\nGitHub repository: link\nGallicchio, G. (2025). PhysioExplorer. Zenodo. https://doi.org/10.5281/zenodo.16808782\n\n\nPolar\nGitHub repository: link"
+  },
+  {
+    "objectID": "maths/test.html",
+    "href": "maths/test.html",
+    "title": "test",
+    "section": "",
+    "text": "Let’s consider two signals, A and B. Of signal A we are only interested in its phase. Of signal B its magnitude. Let’s assume we have a vector of multiple phases and magnitudes.\nI will refer to the vector of phases from signal A as \\(\\phi^A\\) and to the vector of magnitudes from signal B as \\(m^B\\).\nPAC is the mean resultant length of the complex-valued vectors assembled as below.\n\\[\nPAC = N^{-1}\n\\left|\n\\sum_{t=1}^{N} m^B_t e^{i \\phi^{A}_t}\n\\right|\n\\]\nThe bias \\(\\vec{\\Phi^A}\\) consists in a possible non-uniformity distribution of signal A’s phases. This bias can be computed as the mean resultant of the unit-length complex vectors with angle \\(\\phi^A\\).\n\\[\n\\vec{\\Phi^A} = N^{-1}\n\\sum_{t=1}^{N}e^{i\\phi^A_t}\n\\]\nNote that \\(\\vec{\\Phi^A}\\) is a complex vector whose length is not necessarily 1.\n\n\n\nThe debiasing procedure removes the mean resultant \\(\\vec{\\Phi^A}\\) from the unit-length vectors with \\(\\phi^A\\) as angles\n\\[\ndPAC = N^{-1}\n\\left|\n\\sum_{t=1}^N [m^B_t (e^{i\\phi^A_t}-\\vec{\\Phi^A})]\n\\right|\n\\]\nThe debiasing procedure is in fact a demeaning of the unit-length complex-valued vectors with phase \\(\\phi^A\\)\nThe demeaning procedure yields another complex-valued vector \\(\\vec{d^A}\\)\n\\[\ne^{i\\phi^A_t}-\\vec{\\Phi^A}=\\vec{d_t^A} \\ \\ \\ \\ \\ , \\forall t\n\\]\nTherefore we can re-express dPAC using the demeaned A’s phase vector \\(d^A\\). In these terms, dPAC is the mean resultant length of the complex-value vectors built as the scaling of the demeaned phase of signal A by the magnitudes \\(m^B\\) and.\n\\[\ndPAC = N^{-1}\n\\left|\n\\sum_{t=1}^Nm_t^B \\vec{d^A_t}\n\\right|\n\\]\nThe “d” in dPAC is used for “debiased” but the mean resultant is a biased estimator anyway, so this terminology is a bit misleading. I rather consider the “d” as “demeaned” with the caveat that it’s only the phase information that has been demeaned: demeaned-phase amplitude coupling (dPAC).\n\n\n\nLet’s split the complex-valued vector \\(d^A\\) into the magnitude and angle components and let’s label them for sake of simplicity.\n\\[\n|d^A| = n^A\n\\]\n\\[\n\\arg(d^A) = \\theta^A\n\\]\n\\[\nd^A = n^A e^{i \\theta^A}\n\\]\nLet’s re-write dPAC once more.\n\\[\ndPAC = N^{-1}\n\\left|\n\\sum_{t=1}^Nm^B_tn^A_te^{i\\theta^A_t}\n\\right|\n\\]\nThis formulation, differently from all other formulations of dPAC above clearly separates the magnitude information (i.e., \\(m_t^B\\) and \\(n_t^A\\)) from the angle information (i.e., \\(\\theta^A\\)). So, this makes it easier to see that, if we ever wanted dPAC to live in the [0, 1] range we need to scale it by the magnitude information. Here is normalized dPAC\n\\[\ndPAC_n = \\frac\n{N^{-1}\\left|\\sum_{t=1}^N m^B_t n^A_t e^{i\\theta^A_t}\\right|}\n{N^{-1}\\sum_{t=1}^N m^B_t n^A_t}\n\\]"
+  },
+  {
+    "objectID": "maths/test.html#what-is-there-to-debias-in-pac",
+    "href": "maths/test.html#what-is-there-to-debias-in-pac",
+    "title": "test",
+    "section": "",
+    "text": "Let’s consider two signals, A and B. Of signal A we are only interested in its phase. Of signal B its magnitude. Let’s assume we have a vector of multiple phases and magnitudes.\nI will refer to the vector of phases from signal A as \\(\\phi^A\\) and to the vector of magnitudes from signal B as \\(m^B\\).\nPAC is the mean resultant length of the complex-valued vectors assembled as below.\n\\[\nPAC = N^{-1}\n\\left|\n\\sum_{t=1}^{N} m^B_t e^{i \\phi^{A}_t}\n\\right|\n\\]\nThe bias \\(\\vec{\\Phi^A}\\) consists in a possible non-uniformity distribution of signal A’s phases. This bias can be computed as the mean resultant of the unit-length complex vectors with angle \\(\\phi^A\\).\n\\[\n\\vec{\\Phi^A} = N^{-1}\n\\sum_{t=1}^{N}e^{i\\phi^A_t}\n\\]\nNote that \\(\\vec{\\Phi^A}\\) is a complex vector whose length is not necessarily 1."
+  },
+  {
+    "objectID": "maths/test.html#debiasing-as-demeaning",
+    "href": "maths/test.html#debiasing-as-demeaning",
+    "title": "test",
+    "section": "",
+    "text": "The debiasing procedure removes the mean resultant \\(\\vec{\\Phi^A}\\) from the unit-length vectors with \\(\\phi^A\\) as angles\n\\[\ndPAC = N^{-1}\n\\left|\n\\sum_{t=1}^N [m^B_t (e^{i\\phi^A_t}-\\vec{\\Phi^A})]\n\\right|\n\\]\nThe debiasing procedure is in fact a demeaning of the unit-length complex-valued vectors with phase \\(\\phi^A\\)\nThe demeaning procedure yields another complex-valued vector \\(\\vec{d^A}\\)\n\\[\ne^{i\\phi^A_t}-\\vec{\\Phi^A}=\\vec{d_t^A} \\ \\ \\ \\ \\ , \\forall t\n\\]\nTherefore we can re-express dPAC using the demeaned A’s phase vector \\(d^A\\). In these terms, dPAC is the mean resultant length of the complex-value vectors built as the scaling of the demeaned phase of signal A by the magnitudes \\(m^B\\) and.\n\\[\ndPAC = N^{-1}\n\\left|\n\\sum_{t=1}^Nm_t^B \\vec{d^A_t}\n\\right|\n\\]\nThe “d” in dPAC is used for “debiased” but the mean resultant is a biased estimator anyway, so this terminology is a bit misleading. I rather consider the “d” as “demeaned” with the caveat that it’s only the phase information that has been demeaned: demeaned-phase amplitude coupling (dPAC)."
+  },
+  {
+    "objectID": "maths/test.html#normalized-dpac",
+    "href": "maths/test.html#normalized-dpac",
+    "title": "test",
+    "section": "",
+    "text": "Let’s split the complex-valued vector \\(d^A\\) into the magnitude and angle components and let’s label them for sake of simplicity.\n\\[\n|d^A| = n^A\n\\]\n\\[\n\\arg(d^A) = \\theta^A\n\\]\n\\[\nd^A = n^A e^{i \\theta^A}\n\\]\nLet’s re-write dPAC once more.\n\\[\ndPAC = N^{-1}\n\\left|\n\\sum_{t=1}^Nm^B_tn^A_te^{i\\theta^A_t}\n\\right|\n\\]\nThis formulation, differently from all other formulations of dPAC above clearly separates the magnitude information (i.e., \\(m_t^B\\) and \\(n_t^A\\)) from the angle information (i.e., \\(\\theta^A\\)). So, this makes it easier to see that, if we ever wanted dPAC to live in the [0, 1] range we need to scale it by the magnitude information. Here is normalized dPAC\n\\[\ndPAC_n = \\frac\n{N^{-1}\\left|\\sum_{t=1}^N m^B_t n^A_t e^{i\\theta^A_t}\\right|}\n{N^{-1}\\sum_{t=1}^N m^B_t n^A_t}\n\\]"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Germano Gallicchio",
+    "section": "",
+    "text": "work in progress"
+  },
+  {
+    "objectID": "aboutMe.html",
+    "href": "aboutMe.html",
+    "title": "about me",
+    "section": "",
+    "text": "about me\nLecturer in Psychophysiology and Cognitive NeuroscienceSchool of Psychology and Sport Science, Bangor University, UK\nI am a researcher. I am broadly interested in the areas of psychophysiology, cognitive neuroscience, and biomedical engineering.\nIn my research, I use and develop methods of computational psycho/electrophysiology to study the modulatory effect of cognitive processes (e.g., motor control, working memory, perception), psychological states (e.g., mental fatigue), and disease (e.g, essential hypertension) on biological systems (e.g., cortical, cardiovascular, ocular, somatic) and their interplay (e.g., cross-frequency cross-system coupling).\nMy background is in Psychology. In 2007 I received a BSc in Psychological, Cognitive, and Psychobiological Sciences from the University of Padova (Italy) followed in 2009 by an MSc in Experimental Psychology and Cognitive-Behavioural Neuroscience. It was during these years that I developed my passion for psychophysiology. After completing my MSc degree, I continued working as a research assistant at the Department of General Psychology, University of Padova, and then at the School of Sport and Exercise Sciences, University of Birmingham (UK). I then returned to Italy to sit the State Examination for Psychology, which is necessary for the professional practice in psychology. While continuing my personal study in psychophysiology, I decided to formally study Sport and Exercise Sciences and in 2013 I completed a double MSc awarded jointly by Lund University (Sweden) and the University of Leipzig (Germany). In 2014-15 I worked as a research assistant at the Centre for Cognitive Neuroscience, University of Salzburg (Austria), deepening my study of electrophysiological signal processing. I returned to the UK in 2015 to start an ESRC-funded PhD in Psychophysiology at the University of Birmingham while at the same time completing a PGCert in Advanced Research Methods and Skills. As part of my doctoral training, I had the opportunity to visit the Cognitive Motor Neuroscience Laboratory of the University of Maryland. In 2018 I started a 2-year postdoctoral fellowship at the School of Sport, Exercise, and Health Sciences, Loughborough University. Since 2020 I have been a Lecturer at the School of Psychology and Sport Science, Bangor University, where I am a member of the research institutes for the Psychology of Elite Performance (IPEP) and for Applied Human Physiology (IAHP)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Germano Gallicchio",
+    "section": "",
+    "text": "per ardua ad alta (through hard work to high things)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Germano Gallicchio",
+    "section": "",
+    "text": "Universa Universis Patavina Libertas\n\n(motto of the University of Padova)\nMy research is driven entirely by my interests, in line with the spirit of intellectual freedom in academia.\n… work in progress …"
+  }
+]
