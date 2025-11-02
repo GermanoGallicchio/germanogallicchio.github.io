@@ -5,6 +5,7 @@ project:
 website:
   title: "Germano Gallicchio"
   navbar:
+    title: false
     background: primary
     search: true
     left:
@@ -24,4 +25,5 @@ website:
 format:
   html:
     theme: cosmo
+    css: styles.css
     toc: true
