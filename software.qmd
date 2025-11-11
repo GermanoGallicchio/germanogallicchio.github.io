@@ -4,15 +4,17 @@ Free and open-source software
 
 Repository: [link](https://github.com/GermanoGallicchio/PhysioExplorer)
 
-Documentation: work in progress
+Documentation: [link](https://germanogallicchio.github.io/PhysioExplorer_documentation/index.html)
 
 Reference: Gallicchio, G. (2025). PhysioExplorer. Zenodo. [https://doi.org/10.5281/zenodo.16808782](https://doi.org/10.5281/zenodo.16808782)
 
 
 # Polar
 
+A circular statistics toolbox for computing polar metrics. It includes functions for calculating angular and radial metrics.
+
 Repository: [link](https://github.com/GermanoGallicchio/Polar)
 
-Documentation: work in progress
+Documentation: [link](https://germanogallicchio.github.io/Polar_documentation/index.html)
 
 Reference: work in progress
