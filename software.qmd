@@ -1,6 +1,6 @@
 Free and open-source software
 
-# PhysioExplorer
+# Diagonale (formerly: PhysioExplorer)
 
 Repository: [link](https://github.com/GermanoGallicchio/PhysioExplorer)
 
@@ -9,12 +9,22 @@ Documentation: [link](https://germanogallicchio.github.io/PhysioExplorer_documen
 Reference: Gallicchio, G. (2025). PhysioExplorer. Zenodo. [https://doi.org/10.5281/zenodo.16808782](https://doi.org/10.5281/zenodo.16808782)
 
 
-# Polar
+# Fase (formerly: Polar)
 
 A circular statistics toolbox for computing polar metrics. It includes functions for calculating angular and radial metrics.
 
 Repository: [link](https://github.com/GermanoGallicchio/Polar)
 
 Documentation: [link](https://germanogallicchio.github.io/Polar_documentation/index.html)
+
+Reference: work in progress
+
+# Prisma
+
+A toolbox for implementing various time-frequency decomposition methods (e.g., short-time Fourier transform, continuous wavelet transform, multitaper short-time Fourtier transform, etc.).
+
+Repository: [link](https://github.com/GermanoGallicchio/Prisma)
+
+Documentation: [link](https://germanogallicchio.github.io/Prisma_documentation/index.html)
 
 Reference: work in progress
