@@ -2,9 +2,9 @@
   {
     "objectID": "software.html",
     "href": "software.html",
-    "title": "PhysioExplorer",
+    "title": "Diagonale (formerly: PhysioExplorer)",
     "section": "",
-    "text": "Free and open-source software\n\nPhysioExplorer\nRepository: link\nDocumentation: link\nReference: Gallicchio, G. (2025). PhysioExplorer. Zenodo. https://doi.org/10.5281/zenodo.16808782\n\n\nPolar\nRepository: link\nDocumentation: link\nReference: work in progress"
+    "text": "Free and open-source software\n\nDiagonale (formerly: PhysioExplorer)\nRepository: link\nDocumentation: link\nReference: Gallicchio, G. (2025). PhysioExplorer. Zenodo. https://doi.org/10.5281/zenodo.16808782\n\n\nFase (formerly: Polar)\nA circular statistics toolbox for computing polar metrics. It includes functions for calculating angular and radial metrics.\nRepository: link\nDocumentation: link\nReference: work in progress\n\n\nPrisma\nA toolbox for implementing various time-frequency decomposition methods (e.g., short-time Fourier transform, continuous wavelet transform, multitaper short-time Fourtier transform, etc.).\nRepository: link\nDocumentation: link\nReference: work in progress"
   },
   {
     "objectID": "maths/test.html",
@@ -60,6 +60,6 @@
     "href": "research.html",
     "title": "Germano Gallicchio",
     "section": "",
-    "text": "In my research, I use and develop methods of computational psychophysiology to study the modulatory effect of cognitive processes (e.g., motor control, working memory, perception), psychological states (e.g., mental fatigue), and disease (e.g, essential hypertension) on biological systems (e.g., cortical, cardiovascular, ocular, somatic) and their interplay (e.g., cross-frequency cross-system coupling).\nGoogle Scholar\nWeb of Science\nResearchGate"
+    "text": "In my research, I use and develop methods of computational psychophysiology to study the modulatory effect of cognitive processes (e.g., motor control, working memory, perception), psychological states (e.g., mental fatigue), and disease (e.g, essential hypertension) on biological systems (e.g., cortical, cardiovascular, ocular, somatic) and their interplay (e.g., cross-frequency cross-system coupling).\nWeb of Science\nScopus\nOrcID\nGoogle Scholar\nResearchGate"
   }
 ]
