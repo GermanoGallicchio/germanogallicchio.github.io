@@ -9,8 +9,15 @@ Documentation: [link](https://germanogallicchio.github.io/PhysioExplorer_documen
 Reference: Gallicchio, G. (2025). PhysioExplorer. Zenodo. [https://doi.org/10.5281/zenodo.16808782](https://doi.org/10.5281/zenodo.16808782)
 
 
-# Fase (formerly: Polar)
+# Fase (formerly: Polar) {.nostretch}
 
+::::{.columns}
+::: {.column width="25%"}
+![](https://github.com/GermanoGallicchio/Fase/blob/96d3a46a0fd6c9e132bc9361eea21ddc8cf3fabd/fase_logo.png?raw=true){width=100%}
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="70%"}    
 A circular statistics toolbox for computing polar metrics. It includes functions for calculating angular and radial metrics.
 
 Repository: [link](https://github.com/GermanoGallicchio/Polar)
@@ -18,6 +25,8 @@ Repository: [link](https://github.com/GermanoGallicchio/Polar)
 Documentation: [link](https://germanogallicchio.github.io/Polar_documentation/index.html)
 
 Reference: work in progress
+:::
+::::
 
 # Prisma
 
